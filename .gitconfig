@@ -1,0 +1,14 @@
+[user]
+	name = Sandip Das
+	email = sd13535@outlook.com
+	signingkey = /home/sandip/.ssh/id_ed25519_github.pub
+[commit]
+	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[gpg]
+	format = ssh
