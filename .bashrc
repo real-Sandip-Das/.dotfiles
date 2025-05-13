@@ -160,3 +160,7 @@ source "$OSH"/oh-my-bash.sh
 
 eval "$(starship init bash)"
 eval `keychain --quiet --eval --agents ssh id_ed25519_github`
+export PATH=~/.npm-global/bin:$PATH
+source /opt/ros/jazzy/setup.bash
+
+
